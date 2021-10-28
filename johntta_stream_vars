@@ -1,1 +1,4 @@
-
+:root {
+  --accent-primary: #ff0000;
+  --white: #ffffff;
+}
