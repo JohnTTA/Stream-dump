@@ -1,0 +1,114 @@
+:root {
+    --accent-main: #ff0000;
+    --main-bg: #1e1e1edf;
+    --main-bg-alt: #1e1e1efe;
+    --color-accent-grd: linear-gradient(to right, #f43600, #ff0000, #f40045);
+    --sr-progress-bar-height: 8px;
+}
+
+/*-------- CHAT BG-COLOR -------*/
+.chat-theme.white-flipin {
+    background-color: var(--main-bg) !important;
+    color: #ffffff !important;
+}
+.chat-theme.white-flipin .chat-line {
+    color: #ffffff !important;
+}
+.chat-theme.dark, .chat-theme.dark-checker {
+    background-color: var(--main-bg) !important;
+}
+twitch-chat.chat-theme.dark {
+    padding: 10px !important;
+}
+/*-------- CHAT BG-COLOR -------*/
+
+/*-------- ALERT BG-COLOR -------*/
+.layout-row.alert-box.editor-mode-off.layout--behind {
+    background: var(--main-bg-alt) !important;
+    border-radius: 6px !important;
+}
+
+.layout-row.alert-box.layout--behind.editor-mode-off {
+    background: var(--main-bg-alt) !important;
+    border-radius: 6px !important;
+}
+/*-------- ALERT BG-COLOR -------*/
+
+/*-------- STREAM BAR BG-COLOR -------*/
+.main-container {
+    background-color: var(--main-bg) !important;
+    color: #ffffff !important;
+}
+/*-------- STREAM BAR BG-COLOR -------*/
+
+/*-------- HYPE BOSS -------*/
+.frame.big-box {
+    background-color: var(--main-bg) !important;
+}
+.frame.avatar-holder, .frame.health-container {
+    background-color: transparent !important;
+}
+.bit-boss-wrapper .avatar-holder {
+    border-radius: 6px;
+    background-color: #00ff00;
+}
+
+.bit-boss-wrapper .avatar-holder .avatar {
+    border: 0px !important;
+    border-radius: 6px !important;
+    bottom: 7% !important;
+    height: 78% !important;
+    left: 1% !important;
+    right: 12% !important;
+    top: 12% !important;
+    width: 78% !important;
+    position: relative;
+}
+
+.bit-boss-wrapper .health-container {
+    border-radius: 6px !important;
+    left: 6vh !important;
+    height: 36px !important;
+}
+
+.bit-boss-wrapper .health-bar {
+    background: #0000005f !important;
+    border-radius: 6px !important;
+}
+
+.bit-boss-wrapper .health-inner {
+    border-radius: 6px !important;
+}
+
+.bit-boss-wrapper .big-box {
+    border-radius: 6px !important;
+    width: 100% !important;
+}
+
+.bit-boss-wrapper .health-inner {
+    box-shadow: none;
+    background: #ff0000;
+    background-image: var(--color-accent-grd) !important;
+}
+/*-------- HYPE BOSS -------*/
+
+/*-------- MEDIA REQUEST -------*/
+#widget-1 {
+  max-width: 301px !important;
+  max-height: 250px !important;
+  border-radius: 6px;
+}
+.widget-info-bottom {
+  height: 80px !important;
+  border-radius: 6px;
+  background-color: var(--main-bg) !important;
+  overflow: hidden;
+}
+.media-share-info-wrapper {
+   margin-top: var(--sr-progress-bar-height) !important;
+}
+.fillup.fillup-animation {
+  height: var(--sr-progress-bar-height) !important;
+  background-image: linear-gradient(to right, #f43600, #ff0000, #f40045) !important;
+}
+/*-------- MEDIA REQUEST -------*/
